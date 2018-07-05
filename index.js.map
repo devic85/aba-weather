@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"names":[],"mappings":"AAAA,cAAc,iCAAiC,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export * from './angular-weather-widget.module';\n"]}

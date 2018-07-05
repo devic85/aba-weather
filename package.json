@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      "angular-weather-widget@1.2.4",
+      "/Users/devik/Projects/aba-frontend"
+    ]
+  ],
+  "_from": "angular-weather-widget@1.2.4",
+  "_id": "angular-weather-widget@1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-c3SLh8P2diY+En8VCzVldVt+jYy6mt0YVBEv2Ux68rC27cjgN3veXj2Q/F8MODAOXbDW0Q1iUzbgkex/EQ8dQw==",
+  "_location": "/angular-weather-widget",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "angular-weather-widget@1.2.4",
+    "name": "angular-weather-widget",
+    "escapedName": "angular-weather-widget",
+    "rawSpec": "1.2.4",
+    "saveSpec": null,
+    "fetchSpec": "1.2.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-weather-widget/-/angular-weather-widget-1.2.4.tgz",
+  "_spec": "1.2.4",
+  "_where": "/Users/devik/Projects/aba-frontend",
+  "author": {
+    "name": "Krzysztof Saja"
+  },
+  "bugs": {
+    "url": "https://github.com/krzysztofsaja/angular-weather-widget/issues"
+  },
+  "dependencies": {},
+  "description": "Weather Widget based on Open Weather Map Api",
+  "homepage": "https://github.com/krzysztofsaja/angular-weather-widget#readme",
+  "keywords": [
+    "angular2",
+    "angular"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "{demo,src,test}/**/*.ts": [
+      "npm run prettier",
+      "git add"
+    ]
+  },
+  "main": "./bundles/angular-weather-widget.umd.js",
+  "module": "./index.js",
+  "name": "angular-weather-widget",
+  "peerDependencies": {
+    "@angular/core": ">=4.0.0 <5.0.0",
+    "@angular/http": ">=4.0.0 <5.0.0",
+    "@angular/router": ">=4.0.0 <5.0.0",
+    "chart.js": "^2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztofsaja/angular-weather-widget.git"
+  },
+  "typings": "./index.d.ts",
+  "version": "1.2.4"
+}
